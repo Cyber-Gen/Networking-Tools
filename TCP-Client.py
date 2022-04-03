@@ -6,7 +6,7 @@ target_port = 5555
 
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)      #AF_INET refers to IPv4 addr or hostname / SOCK_STREAM refers to TCP client
 
-# conect to the target server
+# connect to the target server
 client.connect((target_host, target_port))
 
 # send data to target server
